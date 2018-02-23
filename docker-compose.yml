@@ -50,7 +50,7 @@ services:
       - './services/movies:/usr/src/app'
       - './services/movies/package.json:/usr/src/package.json'
     ports:
-      - '3001:3000'
+      - '3001:3000' #expose ports - HOST:CONTAINER
     environment:
       - DATABASE_URL=postgres://postgres:postgres@movies-db:5432/movies_dev
       - DATABASE_TEST_URL=postgres://postgres:postgres@movies-db:5432/movies_test

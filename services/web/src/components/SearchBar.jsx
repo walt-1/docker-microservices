@@ -19,7 +19,6 @@ class SearchBar extends Component {
         <span className="input-group-btn">
           <button
             className="btn btn-success"
-            type="button"
             onClick={() => this.props.searchMovie(this.state.term)}
           >
           Search!
