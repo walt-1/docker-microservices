@@ -36,7 +36,6 @@ class App extends Component {
     axios.get(`${API_URL}&s=${term}`)
     .then((res) => {
       this.setState({ movies: res.data.Search});
-      console.log(this.state);
     })
     .catch((err) => { console.log(err); })
   }

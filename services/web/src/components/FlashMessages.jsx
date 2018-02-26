@@ -34,10 +34,11 @@ const FlashMessages = ({messages, deleteFlashMessage}) => {
         message={message} />
     )
   })
+  console.log(Alerts);
 
   return (
     <div>
-      {Alerts}
+      {Alerts[Alerts.length - 1]}
     </div>
   )
 }
