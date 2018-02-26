@@ -46,18 +46,18 @@ class App extends Component {
     })
   }
   deleteFlashMessage (index) {
-    if (index > 0) {
+    // if (index > 0) {
       this.setState({
         flashMessages: [
-          ...this.state.flashMessages.slice(0, index),
-          ...this.state.flashMessages.slice(index + 1)
+          // ...this.state.flashMessages.slice(0, index),
+          // ...this.state.flashMessages.slice(index + 1)
         ]
       })
-    } else {
-      this.setState({
-        flashMessages: [...this.state.flashMessages.slice(index + 1)]
-      })
-    }
+    // } else {
+    //   this.setState({
+    //     flashMessages: [...this.state.flashMessages.slice(index + 1)]
+    //   })
+    // }
   }
   registerUser(userData, callback) {
     /*
