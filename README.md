@@ -16,16 +16,16 @@
 - [windows](https://docs.docker.com/docker-for-windows/install/)
 
 
-Make sure you are using a Docker version >= 17:
+1. Make sure you are using a Docker version >= 17:
 
     ```sh
     $ docker -v
     Docker version 17.03.0-ce, build 60ccb22
     ```
 
-# clone repo
+2. Clone repo and cd into the root directory
 
-### Build and Run the App
+# Build and Run the App
 
 #### Set the Environment variables
 
