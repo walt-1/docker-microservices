@@ -25,6 +25,9 @@
 
 2. Clone repo and cd into the root directory
 
+3. Go to [OMDb](http://www.omdbapi.com/apikey.aspx) to get an API key, then go to services/web/src/App.jsx and place that key in the variable _API_URL_
+
+
 # Build and Run the App
 
 #### Set the Environment variables
